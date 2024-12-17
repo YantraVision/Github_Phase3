@@ -16,6 +16,8 @@ result=subtraction(input_1,input_2);
 printf("Subtraction of two inputs=%d",&result);
 result=multiplication(input_1,input_2);
 printf("Multiplication of two inputs=%d",&result);
+result=division(input_1,input_2);
+printf("Division of two inputs=%d",result);
 return 0;
 }
 
