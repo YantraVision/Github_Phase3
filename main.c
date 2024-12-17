@@ -2,8 +2,10 @@
 #include<stdio.h>
 
 int add(int input_1,int input_2); //Function to add two numbers
-int subtraction(int input_1,int input_2); //Function to subtraction of two number
+int subtraction(int input_1,int input_2); //Function to subtraction
 int multiplication(int input_1,int input_2); //Function to Multiply
+int division(int input_1,int input_2); //Function to Divide
+
 int main(){
 int input_1=30;
 int input_2=2;
@@ -35,4 +37,8 @@ result=input1*input2;
 return result;
 }
 
-   
+int division(int input_1,int input_2){
+int result=0;
+result=input_1/input2;
+return result;
+}   
