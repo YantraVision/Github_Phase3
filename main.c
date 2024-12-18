@@ -11,23 +11,7 @@ int input_1=30;
 int input_2=2;
 int result=0;
 result=add(input_1,input_2);
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 printf("Addition of two inputs=%d",result);
-=======
-printf("Addition of two inputs=%d",&result);//to print addition
->>>>>>> Stashed changes
-=======
-printf("Addition of two inputs=%d",&result);//to print addition
->>>>>>> Stashed changes
-=======
-printf("Addition of two inputs=%d",&result);//to print addition
->>>>>>> Stashed changes
-=======
-printf("Addition of two inputs=%d",&result);//to print addition
->>>>>>> Stashed changes
 result=subtraction(input_1,input_2);
 printf("Subtraction of two inputs=%d",result);
 result=multiplication(input_1,input_2);
@@ -59,8 +43,4 @@ int division(int input_1,int input_2){
 int result=0;
 result=input_1/input_2;
 return result;
-
-
-printf("After review i am editing this bu using clone");
-
 }   
