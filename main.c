@@ -13,7 +13,11 @@ int result=0;
 result=add(input_1,input_2);
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 printf("Addition of two inputs=%d",result);
+=======
+printf("Addition of two inputs=%d",&result);//to print addition
+>>>>>>> Stashed changes
 =======
 printf("Addition of two inputs=%d",&result);//to print addition
 >>>>>>> Stashed changes
