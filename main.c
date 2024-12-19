@@ -35,12 +35,12 @@ return result;
 
 int multiplication(int input_1,int input_2){
 int result=0;
-result=input_1*input_2; //Stores result of multiplication
+result=input_1*input_2; 
 return result;
 }
 
 int division(int input_1,int input_2){
 int result=0;
-result=input_1/input_2; //stores result of division
+result=input_1/input_2; 
 return result;
 }   
