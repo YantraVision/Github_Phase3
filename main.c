@@ -35,7 +35,7 @@ return result;
 
 int multiplication(int input_1,int input_2){
 int result=0;
-result=input_1*input_2;
+result=input_1*input_2; //Stores result of multiplication
 return result;
 }
 
